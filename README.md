@@ -1,4 +1,4 @@
-# PRÁCTICA 2 - Eva Marina
+# PRÁCTICA 3 - Eva Marina
 En esta práctica utilizamos Next.js, React y TypeScript junto con la API pública DummyJSON.
 La aplicación muestra productos en tarjetas con su imagen, título, categoría y precio. Se permite buscar productos por nombre o categoría.
 

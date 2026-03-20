@@ -1,26 +1,17 @@
 .page {
-  --background: #fafafa;
-  --foreground: #fff;
+  max-width: 1100px;
+  margin: 0 auto;
+}
 
-  --text-primary: #000;
-  --text-secondary: #666;
-
-  --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
-  --button-secondary-border: #ebebeb;
-
+.topBlock {
   display: flex;
-  flex: 1;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-geist-sans);
-  background-color: var(--background);
+  gap: 12px;
 }
 
 .main {
-  display: flex;
-  flex: 1;
+  display: 120px 60px;
+  min-height: 100vh;
   width: 100%;
   max-width: 800px;
   flex-direction: column;
@@ -139,4 +130,5 @@ a.secondary {
     --button-secondary-hover: #1a1a1a;
     --button-secondary-border: #1a1a1a;
   }
+  
 }
